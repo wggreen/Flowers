@@ -1,0 +1,29 @@
+.flowers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flower {
+    border: 1px solid black;
+    margin: 0px 10px;
+    padding: 5px;
+    flex-basis: 10%;
+}
+
+.shops {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.shop {
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding: 5px;
+    flex-basis: 25%;
+}
+
+.shop div {
+    margin: 10px 0px;
+}

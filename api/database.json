@@ -1,28 +1,34 @@
 {
     "flowers": [
         {
+            "id": 1,
             "name": "Sunflower",
-            "price": 5
+            "color": "yellow"
         },
         {
+            "id": 2,
             "name": "Iris",
-            "price": 10
+            "color": "purple"
         },
         {
+            "id": 3,
             "name": "Rose",
-            "price": 15
+            "color": "red"
         },
         {
+            "id": 4,
             "name": "Dandelion",
-            "price": 20
+            "color": "yellow"
         },
         {
+            "id": 5,
             "name": "Lily",
-            "price": 25
+            "color": "blue"
         }
     ],
     "shops": [
         {
+            "id": 1,
             "name": "Flower Shop 1",
             "city": "Paris",
             "state": "TN",
@@ -30,6 +36,7 @@
             "distributorId": 1
         },
         {
+            "id": 2,
             "name": "Flower Shop 2",
             "city": "Rome",
             "state": "TN",
@@ -37,6 +44,7 @@
             "distributorId": 2
         },
         {
+            "id": 3,
             "name": "Flower Shop 3",
             "city": "Bristol",
             "state": "TN",
@@ -44,6 +52,7 @@
             "distributorId": 3
         },
         {
+            "id": 4,
             "name": "Flower Shop 4",
             "city": "London",
             "state": "TN",
@@ -51,6 +60,7 @@
             "distributorId": 1
         },
         {
+            "id": 5,
             "name": "Flower Shop 5",
             "city": "Wartburg",
             "state": "TN",
@@ -61,24 +71,121 @@
     "distributors": [
         {
             "name": "Distributor 1",
-            "city": "The Moon",
-            "state": "TN",
-            "address": "1 Moon Street",
             "id": 1
         },
         {
             "name": "Distributor 2",
-            "city": "The Phantom Zone",
-            "state": "TN",
-            "address": "2 Zone Street",
             "id": 2
         },
         {
             "name": "Distributor 3",
-            "city": "Jurassic Park",
-            "state": "TN",
-            "address": "3 Park Street",
             "id": 3
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Nursery 1"
+        },
+        {
+            "id": 2,
+            "name": "Nursery 2"
+        },
+        {
+            "id": 3,
+            "name": "Nursery 3"
+        },
+        {
+            "id": 4,
+            "name": "Nursery 4"
+        },
+        {
+            "id": 5,
+            "name": "Nursery 5"
+        }
+    ],
+    "nurseriesFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 4
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "flowerId": 5
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "flowerId": 1
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "flowerId": 2
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "flowerId": 3
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "flowerId": 4
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "flowerId": 5
+        }
+    ],
+    "nurseriesDistributors": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 2,
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "nurseryId": 3,
+            "distributorId": 2
+        },
+        {
+            "id": 4,
+            "nurseryId": 4,
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "nurseryId": 5,
+            "distributorId": 3
+        },
+        {
+            "id": 6,
+            "nurseryId": 1,
+            "distributorId": 3
         }
     ]
 }
